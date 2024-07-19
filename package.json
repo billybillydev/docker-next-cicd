@@ -10,7 +10,7 @@
     "lint:fix": "eslint src --ext ts,tsx,js,jsx --fix",
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,html}'",
     "prepare": "husky",
-    "deploy": "fly deploy --dockerfile Dockerfile.prod"
+    "deploy": "flyctl deploy --dockerfile Dockerfile.prod"
   },
   "husky": {
     "hooks": {
