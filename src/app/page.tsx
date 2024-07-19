@@ -15,7 +15,7 @@ export default async function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24 gap-y-8">
-      <h1>Data List with JSONPlaceholder</h1>
+      <h1>Data List</h1>
       <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
         {data.map((item: any) => {
           return (
